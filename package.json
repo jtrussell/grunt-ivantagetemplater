@@ -1,0 +1,46 @@
+{
+  "name": "grunt-ivantagetemplater",
+  "description": "Copy and compile templates",
+  "version": "0.2.0",
+  "homepage": "",
+  "author": {
+    "name": "iVantage Tech",
+    "email": "developers@ivantagehealth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrussell-ivantage/grunt-ivantagetemplater.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "mustache": "~0.7.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "tpl": {
+    "super": "foo",
+    "blargus": "bar",
+    "wowza": {
+      "handle": "stache"
+    }
+  }
+}
