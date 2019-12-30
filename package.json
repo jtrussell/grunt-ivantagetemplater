@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/jrussell-ivantage/grunt-ivantagetemplater.git"
   },
+  "license": "MIT",
   "bugs": {
     "url": ""
   },
